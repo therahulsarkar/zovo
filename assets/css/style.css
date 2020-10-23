@@ -497,12 +497,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* for mobile devices */
 @media (max-width: 768px) {
-
-    
-
-
-
-
   #hero {
     width: 100%;
     height: 100vh;
@@ -651,7 +645,7 @@ h1, h2, h3, h4, h5, h6 {
 /* wave animation */
 .hero-waves {
   display: block;
-  top: 100%;
+  bottom: 0%;
   width: 100%;
   height: 60px;
   z-index: 5;
