@@ -645,7 +645,7 @@ h1, h2, h3, h4, h5, h6 {
 /* wave animation */
 .hero-waves {
   display: block;
- bottom: 0px;
+  bottom: 0px;
   width: 100%;
   height: 60px;
   z-index: 5;
