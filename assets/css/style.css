@@ -501,7 +501,8 @@ h1, h2, h3, h4, h5, h6 {
   #hero {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(45deg, rgba(82, 51, 255, 0.9) 0%, rgba(48, 5, 165, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat;
+    /* background: linear-gradient(45deg, rgba(82, 51, 255, 0.9) 0%, rgba(48, 5, 165, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat; */
+    background: linear-gradient(11deg, #081223, #142663, #163aab, #004ffa), url("../img/hero-bg.jpg") center center no-repeat;
     background-size: cover;
   }
 
