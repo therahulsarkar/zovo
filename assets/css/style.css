@@ -1,30 +1,23 @@
-/**
-* Template Name: Techie - v2.1.0
-* Template URL: https://bootstrapmade.com/techie-free-skin-bootstrap-3/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-body {
-  font-family: "Open Sans", sans-serif;
-  color: #444444;
-}
+  body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+  }
 
-a {
-  color: #5846f9;
-}
+  a {
+    color: #5846f9;
+  }
 
-a:hover {
-  color: #8577fb;
-  text-decoration: none;
-}
+  a:hover {
+    color: #8577fb;
+    text-decoration: none;
+  }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Poppins", sans-serif;
-}
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins", sans-serif;
+  }
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -75,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #5846f9;
-  border-top-color: #e7e4fe;
+  border-top-color: #e7e4fe;  
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -83,23 +76,23 @@ h1, h2, h3, h4, h5, h6 {
   animation: animate-preloader 1s linear infinite;
 }
 
-@-webkit-keyframes animate-preloader {
-  0% {
-    transform: rotate(0deg);
+  @-webkit-keyframes animate-preloader{
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
   }
-  100% {
-    transform: rotate(360deg);
-  }
-}
 
-@keyframes animate-preloader {
-  0% {
-    transform: rotate(0deg);
+  @keyframes animate-preloader {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
   }
-  100% {
-    transform: rotate(360deg);
-  }
-}
 
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
@@ -281,7 +274,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* Get Startet Button */
+/* Get Starter Button */
 .get-started-btn {
   margin-left: 25px;
   color: #fff;
@@ -983,7 +976,32 @@ transform: translate(0, 15px);
   text-align: center;
   box-shadow: 0px 2px 35px rgba(0, 0, 0, 0.247);
   border-radius: 4px;
-  background: linear-gradient(to right, #fc007b, #ff4000);
+  /* background: linear-gradient(25deg, #4c0e2d, #7d1b3e, #b0284f, #e73761); */
+  /* background: linear-gradient(to right, #fc007b, #ff4000); */
+}
+
+.Kolkata{
+  background-image: linear-gradient(to top, #fdf901 0%, #ff2b13 0%, #ff1b76 100%);
+}
+
+.Delhi{
+  background-image: linear-gradient(25deg, #040491, #0720b3, #0737d6, #135aff);
+}
+
+.Mumbai{
+  background-image: linear-gradient(25deg, #550796, #98006c, #c60041, #ee0003);
+}
+
+.Hyderabad{
+  background-image: linear-gradient(25deg, #044547, #1a6b41, #1b9536, #00c01a)
+}
+
+.Chennai{
+  background: linear-gradient(to right, #ff6803, #fdf901);
+}
+
+.Rajasthan{
+  background-image: linear-gradient(to right, #00c6fb 0%, #005bea 100%);
 }
 
 
