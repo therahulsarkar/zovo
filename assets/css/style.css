@@ -568,8 +568,7 @@
   #hero {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(25deg, #550796, #98006c, #c60041, #ee0003), url("../img/hero-bg.jpg") center center no-repeat;
-    /* background: linear-gradient(45deg, rgba(82, 51, 255, 0.9) 0%, rgba(48, 5, 165, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat; */
+    background: linear-gradient(45deg, rgba(82, 51, 255, 0.9) 0%, rgba(48, 5, 165, 0.9) 100%), url("/assets/img/hero-bg.jpg") center center no-repeat;
     background-size: cover;
   }
 
